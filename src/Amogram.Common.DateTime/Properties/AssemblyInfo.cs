@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Amogram.Common.DateTime")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NICS")]
+[assembly: AssemblyCompany("Amogram")]
 [assembly: AssemblyProduct("Amogram.Common.DateTime")]
-[assembly: AssemblyCopyright("Copyright © NICS 2016")]
+[assembly: AssemblyCopyright("Copyright © Amogram 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
