@@ -1,4 +1,4 @@
-# Amogram.Comon.DateTime
+# Amogram.Common.DateTime
 [![Build status](https://ci.appveyor.com/api/projects/status/f50pcyf05f083wxb?svg=true)](https://ci.appveyor.com/project/amogram/amogram-comon-datetime)
 
 DateTime helpers.
