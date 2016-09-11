@@ -14,4 +14,12 @@
     <copyright>Copyright (c) 2016 Andrew McCaughan</copyright>
     <tags>DateTime Helpers</tags>
   </metadata>
+  <files>
+	<file src="bin\net40\Amogram.Common.DateTime.dll" target="lib\net40\Amogram.Common.DateTime.dll" />
+	<file src="bin\net45\Amogram.Common.DateTime.dll" target="lib\net45\Amogram.Common.DateTime.dll" />
+	<file src="bin\net35\Amogram.Common.DateTime.dll" target="lib\net35\Amogram.Common.DateTime.dll" />
+	<file src="bin\net461\Amogram.Common.DateTime.dll" target="lib\net461\Amogram.Common.DateTime.dll" />
+	<file src="bin\net462\Amogram.Common.DateTime.dll" target="lib\net462\Amogram.Common.DateTime.dll" />
+	<file src="bin\net451\Amogram.Common.DateTime.dll" target="lib\net451\Amogram.Common.DateTime.dll" />	
+  </files>  
 </package>
