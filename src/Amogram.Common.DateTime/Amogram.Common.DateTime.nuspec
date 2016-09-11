@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/amogram/Amogram.Comon.DateTime</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A library of DateTime Helpers</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>See CHANGELOG.md</releaseNotes>
     <copyright>Copyright (c) 2016 Andrew McCaughan</copyright>
     <tags>DateTime Helpers</tags>
   </metadata>

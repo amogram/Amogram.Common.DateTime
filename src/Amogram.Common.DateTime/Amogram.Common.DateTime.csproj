@@ -71,11 +71,4 @@
 	</GetAssemblyIdentity>
   <Message Text="Info: %(OutputAssemblyInfo.Version)" />
   </Target>
-<Target Name="Package">
-  <!-- Ensure the Package directory exists for this project -->
-  <RemoveDir Directories="NuGet" />
-  <MakeDir Directories="NuGet" />
-  <!-- Package the project -->
-  <Exec WorkingDirectory="$(BuildDir)" Command="NuGet.exe pack -Verbosity detailed -Symbols -OutputDir &quot;NuGet&quot; -Version %(OutputAssemblyInfo.Version) -Properties &quot;Configuration=$(Configuration)&quot;" />
-</Target>  
 </Project>
