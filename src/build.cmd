@@ -1,7 +1,6 @@
-REM Build Solution
-SET CONFIGURATION=%1
-set PATH_SOURCE_SLN="Amogram.Common.DateTime\Amogram.Common.DateTime.csproj"
-if [%1]==[] (
-  SET CONFIGURATION=net451
-)
-MSBuild %PATH_SOURCE_SLN% /p:Configuration=%CONFIGURATION%
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net35"
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net40"
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net45"
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net451"
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net461"
+MSBuild Amogram.Common.DateTime\Amogram.Common.DateTime.csproj /p:Configuration="net46"
