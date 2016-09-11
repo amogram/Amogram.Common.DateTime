@@ -15,14 +15,8 @@
     <tags>DateTime Helpers</tags>
   </metadata>
   <files>
-	<file src="bin\Release\net40\Amogram.Common.DateTime.dll" target="lib\net40\Assembly.dll" />
-	<file src="bin\Release\net40\Amogram.Common.DateTime.pdb" target="lib\net40\Amogram.Common.DateTime.pdb" />
-	<file src="bin\Release\net40\Amogram.Common.DateTime.xml" target="lib\net40\Amogram.Common.DateTime.xml" />
+	<file src="bin\Release\net40\Amogram.Common.DateTime.dll" target="lib\net40\Amogram.Common.DateTime.dll" />
 	<file src="bin\Release\net45\Amogram.Common.DateTime.dll" target="lib\net45\Amogram.Common.DateTime.dll" />
-	<file src="bin\Release\net45\Amogram.Common.DateTime.pdb" target="lib\net45\Amogram.Common.DateTime.pdb" />
-	<file src="bin\Release\net45\Amogram.Common.DateTime.xml" target="lib\net45\Amogram.Common.DateTime.xml" />
 	<file src="bin\Release\net35\Amogram.Common.DateTime.dll" target="lib\net35\Amogram.Common.DateTime.dll" />
-	<file src="bin\Release\net35\Amogram.Common.DateTime.pdb" target="lib\net35\Amogram.Common.DateTime.pdb" />
-	<file src="bin\Release\net35\Amogram.Common.DateTime.xml" target="lib\net35\Amogram.Common.DateTime.xml" />	
   </files>  
 </package>
