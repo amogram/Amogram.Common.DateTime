@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Amogram.Common.DateTime
 {
@@ -26,6 +28,35 @@ namespace Amogram.Common.DateTime
             }
 
             return from.AddDays(target - start);
+        }
+
+        /// <summary>
+        /// Gets the next upcoming date from a collection of dates.  
+        /// If there are no dates in the list, or there are no 
+        /// upcoming dates, return null.
+        /// If the next upcoming date is today, return today.
+        /// Note: Time is not considered
+        /// </summary>
+        /// <param name="dates">Collection of Dates</param>
+        /// <param name="givenDate"></param>
+        /// <returns></returns>
+        public static System.DateTime? GetNextOrToday(this IEnumerable<System.DateTime> dates, System.DateTime givenDate)
+        {
+            var dateTimes = dates as System.DateTime[] ?? dates.ToArray();
+
+            if (!dateTimes.Any())
+            {
+                return null;
+            }
+
+            var nextDates = dateTimes.Where(x => x.Date >= givenDate.Date).OrderBy(x => x.Date);
+
+            if (nextDates.Any())
+            {
+                return nextDates.First();
+            }
+
+            return null;
         }
     }
 }
