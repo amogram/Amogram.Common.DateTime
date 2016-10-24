@@ -18,6 +18,17 @@ namespace Amogram.Common.DateTime.Tests
         }
 
         [Test]
+        public void GetsNextSundayIfTodayIsSunday()
+        {
+            var dateTotest = new System.DateTime(2016, 10, 23);
+
+            var expectedNextSunday = new System.DateTime(2016, 10, 30);
+            var nextDate = dateTotest.GetNext(DayOfWeek.Sunday);
+
+            Assert.AreEqual(expectedNextSunday.Date, nextDate.Date);
+        }
+
+        [Test]
         public void GetsSameDay()
         {
             var dateTotest = new System.DateTime(2016, 09, 18);
